@@ -5,9 +5,9 @@ account_sid = "AC56cbf44423f5a95358805d29d872c6c9"
 account_token = "f07949b62534d59e8b905008bc40378a" 
 
 client = Client(account_sid,account_token)
-numbers=["+917999987004"]
+numbers=["+917000090737","+919877470121","+919131352453",
+            "+917389379177","+919542690689","+917000593119","+917000626163","+918921365708"]
 for i in numbers :
-    print (i)
     client.messages.create(
         to=i,
         from_="+12057843701",
